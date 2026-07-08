@@ -1,0 +1,24 @@
+[
+  {
+    "year": "2026",
+    "items": [
+      {
+        "type": "Preprint",
+        "htmltext": "New preprint: <a href='https://doi.org/10.48550/arXiv.0000.00000' target='_blank'>A new preprint that is currently under review</a>."
+      },
+      {
+        "type": "Talk",
+        "htmltext": "Gave an invited talk at the <a href='https://example.edu' target='_blank'>Workshop on Interesting Things</a>."
+      }
+    ]
+  },
+  {
+    "year": "2025",
+    "items": [
+      {
+        "type": "Publication",
+        "htmltext": "Our paper <a href='https://doi.org/10.0000/example.2025' target='_blank'>A very important finding about an interesting phenomenon</a> was published in <em>Journal of Important Findings</em>."
+      }
+    ]
+  }
+]

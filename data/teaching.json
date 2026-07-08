@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Introduction to Interesting Things",
+    "role": "Instructor",
+    "institution": "University of Somewhere",
+    "term": "Spring 2026",
+    "description": "An undergraduate introduction to the field, covering foundational concepts and hands-on methods."
+  },
+  {
+    "title": "Advanced Methods Seminar",
+    "role": "Teaching Assistant",
+    "institution": "Another University",
+    "term": "Fall 2023"
+  }
+]

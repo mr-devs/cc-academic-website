@@ -1,0 +1,20 @@
+[
+  {
+    "title": "A very important finding about an interesting phenomenon",
+    "authors": "Jane Placeholder, Collaborator One, Collaborator Two",
+    "publication": "Journal of Important Findings",
+    "year": "2025",
+    "url": "https://doi.org/10.0000/example.2025",
+    "pdfPath": "./docs/publications/2025_Placeholder_ImportantFinding/2025_Placeholder_ImportantFinding.pdf",
+    "bibPath": "./docs/publications/2025_Placeholder_ImportantFinding/cite.bib"
+  },
+  {
+    "title": "An earlier study that laid the groundwork",
+    "authors": "Jane Placeholder, Collaborator One",
+    "publication": "Proceedings of the Conference on Groundwork",
+    "year": "2024",
+    "url": "https://doi.org/10.0000/example.2024",
+    "pdfPath": "./docs/publications/2024_Placeholder_EarlierStudy/2024_Placeholder_EarlierStudy.pdf",
+    "bibPath": "./docs/publications/2024_Placeholder_EarlierStudy/cite.bib"
+  }
+]

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- The page title is also set from data/profile.json at load time -->
+  <title>Academic Website</title>
+  <meta name="description" content="Personal academic website" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="nav-name" href="#top" id="nav-name"></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#working-papers">Working Papers</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Every section below is rendered from a data/*.json file by its js/*.js module.
+         Do not hardcode content here: edit the JSON files instead.
+         A section with no data (missing/empty JSON) hides itself automatically. -->
+
+    <section id="about" class="section profile-section">
+      <div id="profile-container"></div>
+    </section>
+
+    <section id="news" class="section" hidden>
+      <h2>News</h2>
+      <div id="news-container"></div>
+    </section>
+
+    <section id="publications" class="section" hidden>
+      <h2>Publications</h2>
+      <div id="publications-container"></div>
+    </section>
+
+    <section id="working-papers" class="section" hidden>
+      <h2>Working Papers</h2>
+      <div id="working-papers-container"></div>
+    </section>
+
+    <section id="projects" class="section" hidden>
+      <h2>Ongoing Projects</h2>
+      <div id="projects-container"></div>
+    </section>
+
+    <section id="talks" class="section" hidden>
+      <h2>Talks</h2>
+      <div id="talks-container"></div>
+    </section>
+
+    <section id="software" class="section" hidden>
+      <h2>Software</h2>
+      <div id="software-container"></div>
+    </section>
+
+    <section id="teaching" class="section" hidden>
+      <h2>Teaching</h2>
+      <div id="teaching-container"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p id="footer-text"></p>
+  </footer>
+
+  <script src="./js/utils.js"></script>
+  <script src="./js/profile.js"></script>
+  <script src="./js/news.js"></script>
+  <script src="./js/publications.js"></script>
+  <script src="./js/working_papers.js"></script>
+  <script src="./js/ongoing_projects.js"></script>
+  <script src="./js/talks.js"></script>
+  <script src="./js/software.js"></script>
+  <script src="./js/teaching.js"></script>
+</body>
+</html>
